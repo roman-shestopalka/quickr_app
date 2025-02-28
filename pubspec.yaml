@@ -1,0 +1,62 @@
+name: quickr
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7+1
+  flutter_bloc: ^9.0.0
+  flutter_local_notifications: ^18.0.1
+  flutter_localization: ^0.3.1
+  flutter_svg: ^2.0.17
+  get_it: ^8.0.3
+  intl: ^0.19.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  local_auth: ^2.3.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Ageopersonaluse
+      fonts:
+        - asset: assets/fonts/AgeopersonaluseRegular.otf
+          weight: 400
+        - asset: assets/fonts/AgeopersonaluseBold.otf
+          weight: 700
+        - asset: assets/fonts/AgeopersonaluseExtrabold.otf
+          weight: 800
+        - asset: assets/fonts/AgeopersonaluseHeavy.otf
+          weight: 900
+        - asset: assets/fonts/AgeopersonaluseLight.otf
+          weight: 300
+        - asset: assets/fonts/AgeopersonaluseMedium.otf
+          weight: 500
+        - asset: assets/fonts/AgeopersonaluseSemibold.otf
+          weight: 600
+        - asset: assets/fonts/AgeopersonaluseThin.otf
+          weight: 100
+
